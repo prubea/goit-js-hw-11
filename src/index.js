@@ -28,9 +28,9 @@ btnMore.addEventListener("click", loadMore);
 
 
 // Functions
-function search(event) {
+function search(e) {
 
-  event.preventDefault();
+  e.preventDefault();
   const query = searchQuery.value;
   limit = 40;
   gallery.innerHTML = "";
